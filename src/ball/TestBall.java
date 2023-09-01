@@ -1,5 +1,8 @@
+package ball;
+
 public class TestBall {
     public static void main(String[] args) {
+        // Задание 2
         Ball ball = new Ball();
 
         ball.setXY(1., 2.);

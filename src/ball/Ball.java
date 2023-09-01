@@ -1,3 +1,5 @@
+package ball;
+
 public class Ball {
     private double x;
     private double y;
@@ -37,7 +39,7 @@ public class Ball {
 
     @Override
     public String toString() {
-        return "Ball{" +
+        return "ball.Ball{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';

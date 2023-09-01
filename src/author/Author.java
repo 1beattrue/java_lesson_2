@@ -1,9 +1,11 @@
+package author;
+
 public class Author {
     private final String name;
     private String email;
     private final char gender;
 
-    public Author(String name, String email, char gender) {
+    Author(String name, String email, char gender) {
         this.name = name;
         this.email = email;
         this.gender = gender;
@@ -23,7 +25,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Author{" +
+        return "author.Author{" +
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", gender=" + gender +
