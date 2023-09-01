@@ -1,6 +1,7 @@
 package shop;
 
 public class Tester {
+    // Задание 4
     public static void main(String[] args) {
         Shop computerShop = new Shop();
         computerShop.addComputer(new Computer(Processor.INTEL_PENTIUM, Memory._256GB));
