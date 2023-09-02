@@ -1,4 +1,4 @@
-package Dog;
+package dog;
 
 public class Tester {
     // Задание 5

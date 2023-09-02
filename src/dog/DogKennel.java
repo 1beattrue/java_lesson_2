@@ -1,4 +1,4 @@
-package Dog;
+package dog;
 
 import java.util.ArrayList;
 
